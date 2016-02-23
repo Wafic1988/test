@@ -1,3 +1,12 @@
+myFirstProject/Resource2.class
+myFirstProject/RestApiServerResource.class
+myFirstProject/UserEntityServer.class
+myFirstProject/DatabaseMapper/CompanyEntity.class
 myFirstProject/App.class
-myFirstProject/RestApiServer.class
+myFirstProject/DatabaseMapper/UserEntity.class
 myFirstProject/App$requestHandler.class
+myFirstProject/RestApiServer.class
+myFirstProject/DatabaseMapper/PersonnelInformationEntity.class
+myFirstProject/DatabaseMapper/EmployeeEntity.class
+myFirstProject/DatabaseMapper/TestDbMapper.class
+myFirstProject/Resource1.class

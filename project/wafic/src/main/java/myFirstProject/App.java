@@ -28,7 +28,7 @@ public class App{
 
     private void startServer() {
         try {
-            InetSocketAddress address = new InetSocketAddress(InetAddress.getByName("192.168.56.101"), 2500);
+            InetSocketAddress address = new InetSocketAddress(InetAddress.getByName("192.168.56.102"), 2500);
             server = HttpServer.create(address,0);
             server.createContext("/", new requestHandler());
             server.setExecutor(null);

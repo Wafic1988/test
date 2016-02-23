@@ -6,7 +6,7 @@ processPid=$(head -n 1 pid)
 if [ -n "$processPid" ]; then
 	echo "Http server already running ("$processPid")"
 else
-	java -cp /git/master/project/wafic/target/wafic-1.0-SNAPSHOT.jar:/opt/idea-IC-141.1532.4/lib/* myFirstProject.App &
+	java -cp /git/master/project/wafic/target/wafic-1.0-SNAPSHOT.jar:/opt/idea-IC-141.1532.4/lib/* myFirstProject.RestApiServer &
 	echo "Http server starting . . . ("$!")"
 	echo $! > pid
 fi
